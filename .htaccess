@@ -1,0 +1,5 @@
+Options -Indexes
+php_value mbstring.func_overload 0
+<Files ~ "\.(sql|conf|cfg)$">
+  deny from all
+</Files>
