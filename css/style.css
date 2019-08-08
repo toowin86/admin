@@ -1032,7 +1032,10 @@ form.__other__change_max_form .col_us_mini{color:#999;font-size:10px !important;
 .m_zakaz_add_td_last{width: 220px;}
 
 .m_postav_first_tbl{width:100%;}
-.m_postav_find{min-width:700px;border-left:1px solid #ccc;padding-left: 15px;}
+.m_postav_find{min-width:700px;border-left:1px solid #ccc;padding-left: 25px;}
+@-moz-document url-prefix() {
+  .m_postav_find{padding-left: 15px;}
+}
 .m_postav_add_form{width:604px;padding:10px;}
 .m_postav_find_res{margin:10px 0;}
 .m_postav_fillter{margin:10px;}

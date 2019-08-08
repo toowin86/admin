@@ -117,6 +117,7 @@ if (admin_auth($_SESSION['admin']['email'],$_SESSION['admin']['password'])!='1')
 			<ul>
 				<li class="subitem1"><a href="?inc=__mod_link_extractor">Извлечение из строк</a></li>
 				<li class="subitem1"><a href="?inc=__mod_difference_lines">Отличие строк</a></li>
+				<li class="subitem1"><a href="?inc=__mod_sql">SQL</a></li>
 			</ul>
 		</li>
         <?php if (isset($a_menu_arr['comments'][$inc_id]) and trim(strip_tags($a_menu_arr['comments'][$inc_id]))!=''){ ?>
